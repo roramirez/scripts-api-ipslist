@@ -21,6 +21,6 @@ Get list from ipslist.com and banned by chains of iptables on system.
 
 You can configure this script on crontab on your system
 
-# m h  dom mon dow   command
-   0-59/10  *  *   *   *   /path/get_list.py
+    m h  dom mon dow   command
+      0-59/10  *  *   *   *   /path/get_list.py
  
