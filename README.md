@@ -12,6 +12,7 @@ Example:
 You can use this blocking by fail2ban. On actionban configuration on /etc/fail2ban/iptables*.conf
 
 Example configuration on fail2ban
+
 	actionban = iptables -I fail2ban-<name> 1 -s <ip> -j DROP | /root/add_ip.sh <ip> 
 
 
