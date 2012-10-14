@@ -17,6 +17,7 @@ key = 'ADD YOUR API KEY HERE'
 url_api = 'http://ipslist.com/api'
 
 #command iptables
+#DROP vs REJECT http://www.chiark.greenend.org.uk/~peterb/network/drop-vs-reject
 #iptables_allow = 'iptables -D ipslist  -s %s -j DROP'
 iptables_allow = 'iptables -I ipslist 1 -s %s -j ACCEPT'
 iptables_deny  = 'iptables -I ipslist 1 -s %s -j REJECT'
